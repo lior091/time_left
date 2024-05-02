@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 def calculate_productive_hours(current_age, life_expectancy, sleep_hours):
     # Calculate the total number of years from age 18 to the median death age
     years_remaining = life_expectancy - current_age
-
+    
     # Calculate the total years of sleep
     years_of_sleep = years_remaining * sleep_hours / 24
 
